@@ -1,11 +1,11 @@
-
+//correto
 function solucao(precos) {
     let perdas = []
     let prejuizo = 0
     for (let i = 0; i < precos.length; i++) {
         for (let j = i + 1; j < precos.length; j++) {
-            if (precos[0] > precos[i]) {
-                prejuizo = precos[0] - precos[i]
+            if (precos[i] > precos[j]) {
+                prejuizo = precos[i] - precos[j]
                 perdas.push(prejuizo)
             }
         }
