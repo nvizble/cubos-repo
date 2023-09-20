@@ -7,10 +7,10 @@ function solucao(sequencia) {
         } else {
             posicao--
         }
-        if (posicao > 7) {
-            posicao = posicao - 7
-        } else if (posicao < 1) {
-            posicao = posicao + 7
+        if (posicao > 6) {
+            posicao = 0
+        } else if (posicao < 0) {
+            posicao = 6
         }
 
     }
