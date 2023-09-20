@@ -20,14 +20,12 @@ function solucao(notas) {
 
     media = soma / notas.length
 
-    console.log(notas)
+    console.log(media)
 }
 
 function processData(input) {
     solucao(input.trim().split(" ").filter(x => x).map(x => parseInt(x, 10)));
 }
-
-
 
 process.stdin.resume();
 process.stdin.setEncoding("ascii");
