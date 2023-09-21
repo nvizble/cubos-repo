@@ -1,15 +1,8 @@
-
 let soma = 0
 let media = 0
 
 function solucao(notas) {
-
-    for (let i = 0; i < notas.length; i++) {
-        for (let j = 0; j < notas.length; j++) {
-            notas.sort((i, j) => i - j)
-
-        }
-    }
+    notas.sort((i, j) => i - j)
     notas.shift()
     notas.pop()
 
