@@ -3,7 +3,7 @@ let pontuacao = 0
 function solucao(resultados) {
     for (const jogos of resultados) {
         if (jogos === "V") {
-            potuacao += 3
+            pontuacao += 3
         } else if (jogos === "E") {
             pontuacao += 1
         } else if (jogos === "D") {
